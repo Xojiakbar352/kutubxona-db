@@ -1,3 +1,4 @@
-INSERT INTO readers(full_name,phone) VALUES ('Ali Valiyev','901112233'),('Malika Karimova','909998877');
-INSERT INTO books(title,author,publication_year,copies_total) VALUES ('O‘tkan kunlar','Abdulla Qodiriy',1925,3),('Sariq devni minib','Xudoyberdi To‘xtaboyev',1968,2),('Python asoslari','O‘quv qo‘llanma',2024,1);
-INSERT INTO loans(reader_id,book_id,loan_date,due_date) VALUES (1,1,'2026-11-01','2026-11-15'),(2,2,'2026-11-03','2026-11-17');
+INSERT INTO readers(full_name,phone) VALUES
+('Ali Valiyev','901112233'),('Malika Karimova','909998877'),('Azizbek Rahimov','901234501'),('Dilnoza Ismoilova','901234502'),('Javohir Ergashev','901234503'),('Madina Abdullayeva','901234504'),('Sardor Tursunov','901234505'),('Sevara Qodirova','901234506'),('Bekzod Yo‘ldoshev','901234507'),('Nilufar Rasulova','901234508'),('Sherzod Usmonov','901234509'),('Zilola Sobirova','901234510'),('Diyorbek Salimov','901234511'),('Mohira Akbarova','901234512'),('Umidjon Xolmatov','901234513');
+INSERT INTO books(title,author,publication_year,copies_total) VALUES
+('O‘tkan kunlar','Abdulla Qodiriy',1925,3),('Sariq devni minib','Xudoyberdi To‘xtaboyev',1968,2),('Python asoslari','O‘quv qo‘llanma',2024,2),('Mehrobdan chayon','Abdulla Qodiriy',1929,3),('Kecha va kunduz','Cho‘lpon',1936,2),('Shum bola','G‘afur G‘ulom',1936,3),('Ikki eshik orasi','O‘tkir Hoshimov',1986,2),('Dunyoning ishlari','O‘tkir Hoshimov',1982,2),('Alpomish','Xalq dostoni',NULL,3),('Ma’lumotlar bazasi asoslari','O‘quv qo‘llanma',2024,2);
