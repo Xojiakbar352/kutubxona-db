@@ -19,5 +19,8 @@ jobs:
         with:
           python-version: '3.11'
 
+     
       - name: Testlarni ishga tushirish
-        run: python -m unittest discover -s kutubxona_loyiha/tests -v
+        working-directory: kutubxona_loyiha
+        run: python -m unittest discover -s tests -v
+
